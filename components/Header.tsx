@@ -7,9 +7,9 @@ import React from 'react'
    return (
      <div>
        <Link href="/">Home</Link>
-       <Link href="/bio">Bio</Link>
-       <Link href="/films">Films</Link>
-       <Link href="/contact">Contact</Link>
+       <Link href="/Bio">Bio</Link>
+       <Link href="/Films">Films</Link>
+       <Link href="/Contact">Contact</Link>
      </div>
    );
  }

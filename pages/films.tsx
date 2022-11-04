@@ -2,10 +2,10 @@ import React from 'react'
 
 type Props = {}
 
-function films({}: Props) {
+function Films({}: Props) {
   return (
     <div>films</div>
   )
 }
 
-export default films
+export default Films
