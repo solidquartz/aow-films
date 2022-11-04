@@ -2,10 +2,10 @@ import React from 'react'
 
 type Props = {}
 
-function contact({}: Props) {
+function Contact({}: Props) {
   return (
     <div>contact</div>
   )
 }
 
-export default contact
+export default Contact
