@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/Header";
+import Link from 'next/link';
 
 const Home: NextPage = () => {
   return (
@@ -42,7 +43,11 @@ const Home: NextPage = () => {
           ></iframe>
         </div>
         <div>
-          <p className="text-white uppercase text-xl font-thin font-serif hover:font-semibold cursor-pointer">View Portfolio</p>
+          <Link href="/Films">
+            <p className="text-white uppercase text-xl font-thin font-serif hover:font-semibold cursor-pointer">
+              View Portfolio
+            </p>
+          </Link>
         </div>
       </div>
     </div>
