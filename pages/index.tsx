@@ -4,28 +4,45 @@ import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-scroll bg-bg bg-cover min-h-screen min-w-full bg-no-repeat flex flex-col justify-center items-center">
+    <div className="bg-scroll bg-bg bg-cover min-h-screen bg-no-repeat overflow-auto">
       <Head>
         <title>AOW Films</title>
       </Head>
-      <div className="top-0 absolute">
+      {/* HEADER */}
+      <div className="top-0 absolute sticky">
         <Header />
       </div>
 
-
-      <div className="flex justify-center flex-col items-center min-w-full min-h-full"/>
-        <div>
+      <div className="flex flex-col items-center space-y-10">
+        {/* HERO */}
+        <div className="flex flex-col items-center pt-[200px] pb-[100px]">
           <h1 className="text-9xl font-hero tracking-widest text-white text-center">
             AOW FILMS
           </h1>
+
+          <h2 className="text-3xl uppercase tracking-wider text-white font-thin text-center">
+            Andrew Owen Wolinsky
+          </h2>
+
+          <h3 className="text-xl uppercase tracking-widest text-white font-thin text-center">
+            Filmmaker
+          </h3>
+        </div>
+
+        {/* REEL */}
+        <div>
+          <iframe
+            width="640"
+            height="480"
+            src="https://www.youtube.com/embed/dmhOOYsmrJg?controls=0"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
-      <div>
-        <h2 className="text-3xl uppercase tracking-wider text-white font-thin">Andrew Owen Wolinsky</h2>
-      </div>
-      <div>
-        <h3 className="text-xl uppercase tracking-widest text-white font-thin">Filmmaker</h3>
-      </div>
-      </div>
+    </div>
   );
 };
 
