@@ -13,8 +13,6 @@ const Home: NextPage = () => {
       <div>
         <Header />
       </div>
-
-
     </div>
   );
 };
