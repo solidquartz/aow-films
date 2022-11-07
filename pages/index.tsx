@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
-import Link from "next/link";
 import Head from "next/head";
 import Header from "../components/Header";
+import bg from "../images/bg-mountains.jpg";
 
 
 const Home: NextPage = () => {
+
   return (
     <div>
       <Head>
@@ -12,6 +13,12 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
+
+      <div className="">
+
+      </div>
+
+
 
     </div>
   );
