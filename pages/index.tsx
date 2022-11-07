@@ -18,7 +18,13 @@ const Home: NextPage = () => {
           <h1 className="text-9xl font-hero tracking-widest text-white text-center">
             AOW FILMS
           </h1>
-        </div>
+      </div>
+      <div>
+        <h2 className="text-3xl uppercase tracking-wider text-white font-thin">Andrew Owen Wolinsky</h2>
+      </div>
+      <div>
+        <h3 className="text-xl uppercase tracking-widest text-white font-thin">Filmmaker</h3>
+      </div>
       </div>
   );
 };
