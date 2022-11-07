@@ -1,11 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
+import Header from "../components/Header";
 
 type Props = {};
 
 function Bio({}: Props) {
   return (
-    <div>
+    <div className="bg-scroll bg-bg bg-cover h-screen bg-no-repeat flex justify-center">
+      <Head>
+        <title>AOW Films</title>
+      </Head>
+      <div>
+        <Header />
+      </div>
       <div>
         <h2>Andrew Owen Wolinsky</h2>
       </div>
@@ -26,9 +34,10 @@ function Bio({}: Props) {
 
         <p>
           A graduate of Royal Saint George&apos;s College and the University of
-          British Columbia&apos;s Film School; Andrew has worked on Films, TV shows
-          and Videos in Canada and abroad in Asia. From 2005-2010, while based
-          in Japan; Andrew began shooting music videos and directing docuseries.
+          British Columbia&apos;s Film School; Andrew has worked on Films, TV
+          shows and Videos in Canada and abroad in Asia. From 2005-2010, while
+          based in Japan; Andrew began shooting music videos and directing
+          docuseries.
         </p>
 
         <p>

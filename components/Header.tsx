@@ -5,7 +5,7 @@ import React from 'react'
  
  function Header({}: Props) {
    return (
-     <div>
+     <div className="bg-black/20 w-screen flex justify-end items-center min-h-[50px]">
        <Link href="/">Home</Link>
        <Link href="/Bio">Bio</Link>
        <Link href="/Films">Films</Link>
