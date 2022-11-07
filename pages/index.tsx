@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <Header />
       </div>
 
-      <div className="flex flex-col items-center space-y-10">
+      <div className="flex flex-col items-center space-y-10 pb-[100px]">
         {/* HERO */}
         <div className="flex flex-col items-center pt-[200px] pb-[100px]">
           <h1 className="text-9xl font-hero tracking-widest text-white text-center">
@@ -40,6 +40,9 @@ const Home: NextPage = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
+        </div>
+        <div>
+          <p className="text-white uppercase text-xl font-thin font-serif hover:font-semibold cursor-pointer">View Portfolio</p>
         </div>
       </div>
     </div>
