@@ -5,10 +5,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'hero': ['ui-sans-serif', 'Impact'],
+    },
     extend: {
       backgroundImage: {
-      'bg': "url('../public/images/bg-mountains.jpg')",
-    }},
+        'bg': "url('../public/images/bg-mountains.jpg')",
+      }
+    },
   },
   plugins: [],
 };
