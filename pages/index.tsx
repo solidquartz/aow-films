@@ -10,7 +10,7 @@ const Home: NextPage = () => {
         <title>AOW Films</title>
       </Head>
       {/* HEADER */}
-      <div className="top-0 absolute sticky">
+      <div className="top-0">
         <Header />
       </div>
 
