@@ -1,23 +1,18 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/Header";
-import bg from "../images/bg-mountains.jpg";
 
 
 const Home: NextPage = () => {
 
   return (
-    <div>
+    <div className="bg-scroll bg-bg bg-cover h-screen bg-no-repeat flex justify-center">
       <Head>
         <title>AOW Films</title>
       </Head>
-
-      <Header />
-
-      <div className="">
-
+      <div>
+        <Header />
       </div>
-
 
 
     </div>
