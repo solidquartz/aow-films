@@ -49,8 +49,8 @@ function Bio({}: Props) {
           </div>
           <div>
             <p>
-              A graduate of Royal Saint George&amp;s College and the University
-              of British Columbia&amp;s Film School, Andrew has worked on large
+              A graduate of Royal Saint George&apos;s College and the University
+              of British Columbia&apos;s Film School, Andrew has worked on large
               films, TV shows, and videos in Canada and abroad in Asia. From
               2005-2010, while based in Japan, Andrew began directing music
               videos, webisodes and industrial videos.
