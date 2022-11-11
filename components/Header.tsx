@@ -6,7 +6,7 @@ type Props = {};
 
 function Header({}: Props) {
   return (
-    <div className="bg-white object-cover flex justify-between items-center p-3">
+    <div className="bg-white object-cover flex justify-between items-center pt-3 pb-3 pl-5 pr-5">
       {/* Left */}
       <div className="space-x-2">
         <SocialIcon url="https://www.instagram.com/awolie01/" bgColor="black" />
