@@ -17,17 +17,17 @@ const Home: NextPage = () => {
 
         <div className="flex flex-col items-center space-y-10 pb-[100px]">
           {/* HERO */}
-          <div className="flex flex-col items-center pt-[200px] pb-[100px]">
+          <div className="flex flex-col items-center pt-[100px] pb-[100px]">
             <h1 className="text-9xl font-hero tracking-widest text-white text-center">
               AOW FILMS
             </h1>
 
-            <h2 className="text-3xl uppercase tracking-wider text-white text-center">
+            <h2 className="text-3xl uppercase tracking-wider text-white text-center font-body">
               Andrew Owen Wolinsky
             </h2>
 
-            <h3 className="text-xl uppercase tracking-widest text-white text-center">
-              Filmmaker . Director
+            <h3 className="text-xl uppercase tracking-widest text-white text-center font-body">
+              Filmmaker . Director .
             </h3>
           </div>
 
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Link href="/films">
-              <p className="text-white uppercase text-xl font-thin font-serif hover:font-semibold cursor-pointer">
+              <p className="text-white uppercase text-xl font-thin font-body hover:font-semibold cursor-pointer">
                 View Portfolio
               </p>
             </Link>
