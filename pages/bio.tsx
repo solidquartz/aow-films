@@ -17,8 +17,8 @@ function Bio({}: Props) {
       </div>
 
       {/* Title */}
-      <div className="flex flex-col items-center space-y-10 pb-[100px]">
-        <div className="flex flex-col items-center pt-[80px] pb-[40px]">
+      <div className="flex flex-col items-center p-5">
+        <div className="flex flex-col items-center pt-[80px] pb-[50px]">
           <h2 className="text-7xl font-hero tracking-widest text-white text-center uppercase">
             About AOW
           </h2>
@@ -26,12 +26,12 @@ function Bio({}: Props) {
             Filmmaker . Director .
           </h3>
         </div>
-        <div>
+        <div className="pb-[50px]">
           {/* Image */}
           <Image
             src={"/images/aowprofile.jpg"}
             width={1000}
-            height={600}
+            height={667}
             alt="Profile picture of Andrew Wolinsky"
           />
         </div>
