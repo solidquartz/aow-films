@@ -10,8 +10,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'bg': "url('../public/images/bg-mountains.jpg')",
-      }
+        'bg': "url('../public/images/bg.jpg')",
+      },
     },
   },
   plugins: [],
