@@ -1,6 +1,9 @@
+// Hi! This site was designed and developed by Aky Mac Donald. Please check out my portfolio at http://akymacdonald.me.
+
 import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Link from 'next/link';
 
 const Home: NextPage = () => {
@@ -50,6 +53,7 @@ const Home: NextPage = () => {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

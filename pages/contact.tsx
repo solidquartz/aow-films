@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 type Props = {};
 
@@ -101,6 +102,7 @@ function Contact({}: Props) {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
