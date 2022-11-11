@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             </h2>
 
             <h3 className="text-xl uppercase tracking-widest text-white text-center">
-              Filmmaker
+              Filmmaker . Director
             </h3>
           </div>
 
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             ></iframe>
           </div>
           <div>
-            <Link href="/Films">
+            <Link href="/films">
               <p className="text-white uppercase text-xl font-thin font-serif hover:font-semibold cursor-pointer">
                 View Portfolio
               </p>

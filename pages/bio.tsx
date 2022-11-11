@@ -15,7 +15,7 @@ function Bio({}: Props) {
         <Header />
       </div>
       <div>
-        <h2>Andrew Owen Wolinsky</h2>
+        <h2>About AOW</h2>
       </div>
       <div>
         <Image
@@ -27,21 +27,21 @@ function Bio({}: Props) {
       </div>
       <div>
         <p>
-          A versatile, and creative content producer with a wealth of production
-          experience Andrew Owen Wolinsky has been a creative force in film,
-          television and video for over twenty years.
+          A versatile, and creative content producer with a wealth of film
+          production experience, Andrew Owen Wolinsky has been a creative force
+          in Canadian film, television and video for over twenty years.
         </p>
 
         <p>
-          A graduate of Royal Saint George&apos;s College and the University of
-          British Columbia&apos;s Film School; Andrew has worked on Films, TV
-          shows and Videos in Canada and abroad in Asia. From 2005-2010, while
-          based in Japan; Andrew began shooting music videos and directing
-          docuseries.
+          A graduate of Royal Saint George&amp;s College and the University of
+          British Columbia&amp;s Film School, Andrew has worked on large films,
+          TV shows and videos in Canada and abroad in Asia. From 2005-2010,
+          while based in Japan, Andrew began directing music videos, webisodes
+          and industrial videos.
         </p>
 
         <p>
-          Past responsibilities have included producing, writing (creative and
+          Past responsibilities have included producing, writing (creative &amp;
           copy), directing, budgeting, casting, scheduling, logistics, editing
           and production assistance. Specialties include; Strategy, Brand
           Development, Writing, Creative Direction, and Content Production.
