@@ -17,19 +17,24 @@ function Contact({}: Props) {
         <h2>Contact</h2>
       </div>
       <div>
-        <h3>Andrew Wolinsky</h3>
+        <div>
+          <p>For bookings or inquiries please contact:</p>\
+          <p>Andrew O. Wolinsky</p>
+        </div>
+        <div>
+          <p>Email: awolinsky@gmail.com</p>
 
-        <p>Email: awolinsky@gmail.com</p>
+          <p>Telephone: +1 (416) 525 FILM (3456) </p>
+        </div>
+        <div>
+          <p>Instagram: https://www.instagram.com/awolie01/</p>
 
-        <p>Telephone: +1 (416) 525 FILM (3456) </p>
+          <p>Facebook: https://www.facebook.com/awolinsky</p>
 
-        <p>Instagram: https://www.instagram.com/awolie01/</p>
+          <p>LinkedIn: https://www.linkedin.com/in/andrewwolinsky/</p>
 
-        <p>Facebook: https://www.facebook.com/awolinsky</p>
-
-        <p>LinkedIn: https://www.linkedin.com/in/andrewwolinsky/</p>
-
-        <p>Vimeo: https://vimeo.com/user64502745</p>
+          <p>Vimeo: https://vimeo.com/user64502745</p>
+        </div>
       </div>
     </div>
   );

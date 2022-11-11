@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'hero': ['ui-sans-serif', 'Impact'],
+      'body': ['ui-sans-serif', 'Avenir'],
     },
     extend: {
       backgroundImage: {
