@@ -16,6 +16,10 @@ function Header({}: Props) {
           bgColor="black"
         />
         <SocialIcon url="https://vimeo.com/user64502745" bgColor="black" />
+        <SocialIcon
+          url="https://www.youtube.com/channel/UCYccqQ64c0jpEHrrmN1Sv6g"
+          bgColor="black"
+        />
       </div>
 
       {/* Right */}
