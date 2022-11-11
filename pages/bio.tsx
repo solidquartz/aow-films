@@ -19,10 +19,10 @@ function Bio({}: Props) {
       {/* Title */}
       <div className="flex flex-col items-center p-5">
         <div className="flex flex-col items-center pt-[80px] pb-[50px]">
-          <h2 className="text-7xl font-hero tracking-widest text-white text-center uppercase">
+          <h2 className="text-7xl font-hero tracking-widest text-white text-center uppercase filter drop-shadow-xl">
             About AOW
           </h2>
-          <h3 className="text-xl uppercase tracking-widest text-white text-center font-body">
+          <h3 className="text-xl uppercase tracking-widest text-white text-center font-body filter drop-shadow-lg">
             Filmmaker . Director .
           </h3>
         </div>
