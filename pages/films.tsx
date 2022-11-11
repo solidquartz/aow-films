@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import FilmItem from "../components/FilmItem";
 import { films } from "../components/filmlist";
+import Footer from "../components/Footer";
 
 type Props = {};
 
@@ -36,6 +37,7 @@ function Films({}: Props) {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
