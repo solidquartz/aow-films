@@ -29,9 +29,9 @@ function Bio({}: Props) {
         <div>
           {/* Image */}
           <Image
-            src="/images/aowprofile.jpg"
-            width="1000"
-            height="600"
+            src={"/images/aowprofile.jpg"}
+            width={1000}
+            height={600}
             alt="Profile picture of Andrew Wolinsky"
           />
         </div>
