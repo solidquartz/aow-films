@@ -27,13 +27,13 @@ function Header({}: Props) {
         <Link href="/" className="hover:underline">
           Home
         </Link>
-        <Link href="/Bio" className="hover:underline">
+        <Link href="/bio" className="hover:underline">
           Bio
         </Link>
-        <Link href="/Films" className="hover:underline">
+        <Link href="/films" className="hover:underline">
           Work
         </Link>
-        <Link href="/Contact" className="hover:underline">
+        <Link href="/contact" className="hover:underline">
           Contact
         </Link>
       </div>
