@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import Header from "../components/Header";
+import FilmItem from "../components/FilmItem";
+import { films } from "../components/filmlist";
 
 type Props = {};
 
@@ -29,21 +31,12 @@ function Films({}: Props) {
 
         {/* Films */}
         <div className="flex items-center justify-center max-w-[1200px] flex-wrap">
-
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/RU-mt9uHe6A"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-          ></iframe>
-          
-          </div>
+          {films.map((film) => (
+            <FilmItem key={film.url} film={film} />
+          ))}
         </div>
       </div>
-
+    </div>
   );
 }
 

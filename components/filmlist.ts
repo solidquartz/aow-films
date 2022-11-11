@@ -2,7 +2,7 @@ export type Film = {
   url: string;
 };
 
-export const projects: Film[] = [
+export const films: Film[] = [
   {
     url: "https://www.youtube.com/embed/dmhOOYsmrJg",
   },
