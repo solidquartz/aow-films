@@ -15,9 +15,9 @@ const Home: NextPage = () => {
           <Header />
         </div>
 
-        <div className="flex flex-col items-center space-y-10 pb-[100px]">
+        <div className="flex flex-col items-center space-y-7 pb-[100px]">
           {/* HERO */}
-          <div className="flex flex-col items-center pt-[100px] pb-[100px]">
+          <div className="flex flex-col items-center pt-[100px] pb-[100px] max-w-[500px]">
             <h1 className="text-9xl font-hero tracking-widest text-white text-center">
               AOW FILMS
             </h1>
