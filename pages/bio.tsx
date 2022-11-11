@@ -26,8 +26,9 @@ function Bio({}: Props) {
             Filmmaker . Director .
           </h3>
         </div>
+
+        {/* Image */}
         <div className="pb-[50px]">
-          {/* Image */}
           <Image
             src="/images/aow-profile.jpg"
             width="1000"
@@ -37,7 +38,7 @@ function Bio({}: Props) {
         </div>
 
         {/* Paragraph */}
-        <div className="max-w-[1000px] text-white bg-black/50 p-7 text-center space-y-5 text-lg font-body">
+        <div className="max-w-[1000px] text-white bg-black/70 p-7 text-center space-y-5 text-lg font-body">
           <div>
             <p>
               A versatile and creative content producer with a wealth of film
