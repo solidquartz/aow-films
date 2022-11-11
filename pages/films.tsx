@@ -6,16 +6,28 @@ type Props = {}
 
 function Films({}: Props) {
   return (
-    <div className="bg-scroll bg-bg bg-cover h-screen bg-no-repeat flex justify-center">
+    <div className="bg-bg bg-cover min-h-screen bg-fixed">
       <Head>
         <title>AOW Films</title>
       </Head>
-      <div>
+
+      {/* HEADER */}
+      <div className="top-0 sticky z-50">
         <Header />
       </div>
-      <div>
-        <h2>Films</h2>
-      </div>
+
+
+      {/* Title */}
+      <div className="flex flex-col items-center p-5">
+        <div className="flex flex-col items-center pt-[80px] pb-[50px]">
+          <h2 className="text-7xl font-hero tracking-widest text-white text-center uppercase filter drop-shadow-xl">
+            Work
+          </h2>
+          <h3 className="text-xl uppercase tracking-widest text-white text-center font-body filter drop-shadow-lg">
+            AOW FILMS
+          </h3>
+        </div>
+
       <div>
         <iframe
           width="560"
@@ -26,8 +38,10 @@ function Films({}: Props) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
+
       </div>
-    </div>
+      </div>
+      </div>
   );
 }
 
