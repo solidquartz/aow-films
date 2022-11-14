@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* REEL */}
-        <div className="aspect-w-4 aspect-h-3 md:aspect-none w-full h-full">
+        <div>
           <iframe
             width="640"
             height="480"
