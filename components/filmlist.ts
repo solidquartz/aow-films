@@ -19,9 +19,6 @@ export const films: Film[] = [
     url: "https://www.youtube.com/embed/RU-mt9uHe6A",
   },
   {
-    url: "https://www.youtube.com/embed/mfb6NBPxHQk",
-  },
-  {
     url: "https://www.youtube.com/embed/RX-effSJxKM",
   },
 ];

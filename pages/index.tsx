@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
       <div className="flex flex-col items-center space-y-7 pb-[100px]">
         {/* HERO */}
-        <div className="flex flex-col items-center pt-[100px] pb-[100px] max-w-[500px]">
+        <div className="flex flex-col items-center pt-[50px] pb-[50px] max-w-[500px] md:max-w-full">
           <h1 className="text-9xl font-hero tracking-widest text-white text-center filter drop-shadow-xl">
             AOW FILMS
           </h1>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* REEL */}
-        <div>
+        <div className="aspect-w-4 aspect-h-3 md:aspect-none w-full h-full">
           <iframe
             width="640"
             height="480"
@@ -45,6 +45,7 @@ const Home: NextPage = () => {
             allowFullScreen
           ></iframe>
         </div>
+
         <div>
           <Link href="/films">
             <p className="text-white uppercase text-xl font-thin font-body hover:font-semibold cursor-pointer">
