@@ -36,9 +36,9 @@ const Home: NextPage = () => {
         {/* REEL */}
         <div>
           <iframe
-            width="640"
-            height="480"
-            src="https://www.youtube.com/embed/dmhOOYsmrJg?controls=0"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dmhOOYsmrJg"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
