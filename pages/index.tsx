@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         </div>
 
         {/* REEL */}
-        <div>
+        <div className="aspect-w-4 aspect-h-3 md:aspect-none w-full h-full">
           <iframe
             width="640"
             height="480"
@@ -45,6 +45,7 @@ const Home: NextPage = () => {
             allowFullScreen
           ></iframe>
         </div>
+
         <div>
           <Link href="/films">
             <p className="text-white uppercase text-xl font-thin font-body hover:font-semibold cursor-pointer">

@@ -14,6 +14,9 @@ module.exports = {
         'bg': "url('../public/images/bg-skyline.jpg')",
       },
     },
+    corePlugins: {
+      aspectRatio: false,
+    },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/aspect-ratio'),],
 };

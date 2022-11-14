@@ -6,9 +6,9 @@ type Props = {};
 
 function Header({}: Props) {
   return (
-    <div className="bg-white object-cover flex justify-between items-center pt-3 pb-3 pl-5 pr-5">
+    <div className="bg-white object-cover flex justify-between items-center pt-3 pb-3 pl-5 pr-5 max-h-[50px]">
       {/* Left */}
-      <div className="space-x-2">
+      <div className="space-x-2 invisible md:visible">
         <SocialIcon url="https://www.instagram.com/awolie01/" bgColor="black" />
         <SocialIcon url="https://www.facebook.com/awolinsky" bgColor="black" />
         <SocialIcon
