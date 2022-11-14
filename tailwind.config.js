@@ -13,9 +13,6 @@ module.exports = {
       backgroundImage: {
         'bg': "url('../public/images/bg-skyline.jpg')",
       },
-      fontSize: {
-        '9xl': '10rem',
-      },
     },
   },
   plugins: [],
